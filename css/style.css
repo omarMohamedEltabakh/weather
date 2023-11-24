@@ -1,0 +1,234 @@
+  /* START GLOBAL ATTRIBUTE */
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .mainFont {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .mainColor1 {
+    color: #009ad8;
+  }
+
+  .mainColor2 {
+    color: #1e202b;
+  }
+
+  .mainColor3 {
+    color: #bfc1c8;
+  }
+
+  :root {
+    --mainColor1: #009ad8;
+    --mainColor2: #1e202b;
+
+  }
+
+  /* END GLOBAL ATTRIBUTE */
+
+  .fromIput:focus {
+    background-color: #1e202b !important;
+    box-shadow: none !important;
+  }
+  
+
+
+
+
+
+  /* START NAV */
+  ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    color: white;
+  }
+
+  nav .pLogo {
+    font-size: 11px;
+    font-weight: 100;
+    font-weight: lighter;
+  }
+
+  .logo img {
+    width: 70px;
+  }
+
+  nav .li1 {
+    color: var(--mainColor1);
+    border: var(--mainColor1) solid 2px;
+    border-radius: 20px;
+    padding: 3px 25px;
+  }
+
+  nav {
+    background-color: var(--mainColor2);
+    padding: 40px 0;
+  }
+
+  /* END NAV */
+
+
+
+
+
+
+  /* START HOME */
+
+  .search input {
+    background-color: var(--mainColor2);
+    padding: 18px 20px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: none;
+
+
+
+  }
+
+  .search button {
+    right: .7%;
+    background-color: var(--mainColor1);
+    border: var(--mainColor1) solid;
+    width: 100px;
+    height: 80%;
+    top: 10%;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 14px;
+
+  }
+
+  .search input[type="text"]::placeholder {
+    color: gray;
+
+  }
+
+  .home {
+    padding-bottom: 200px;
+    background-image: url(../imges/backgroundImg.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* start weather  */
+  .weahter {
+    transform: translateY(-50%);
+  }
+
+  .tem h2 {
+    font-size: 90px;
+    color: white;
+
+  }
+
+  .tem img {
+    width: 80px;
+  }
+
+  .weahter .card1 {
+    background-color: #323544;
+  }
+
+  .col1Header {
+    background-color: #2d303d;
+    color: #bfc1c8;
+    font-size: 14px;
+  }
+
+  .card2 {
+    background-color: #262936;
+  }
+
+  .card2 .py-2 {
+    background-color: #222530;
+  }
+
+  .card2 img {
+    width: 50px;
+  }
+
+  .card3 {
+    background-color: #323544;
+  }
+
+  .card3 .py-2 {
+    background-color: #2d303d;
+  }
+
+  .divWeather {
+    background-color: var(--mainColor2);
+    height: 225px;
+
+
+  }
+
+  /* end weather  */
+  /* END HOME */
+
+
+
+
+
+
+
+
+
+  /* start footer  */
+
+
+  .btnEmail {
+    right: 1%;
+    background-color: var(--mainColor1);
+    border: var(--mainColor1) solid;
+    width: 100px;
+    height: 80%;
+    top: 10%;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 14px
+  }
+
+  .emailSearch {
+    background-color: var(--mainColor2);
+    padding: 18px 20px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: none;
+    width: 750px;
+
+  }
+
+  .emailSearch[type="text"]::placeholder {
+    color: gray;
+  }
+
+  .iconFooter {
+    width: 170px;
+
+  }
+
+  .iconFooter i {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--mainColor2);
+    border-radius: 50%;
+    color: #009ad8;
+  }
+
+
+  footer {
+    background-color: #262936;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+
+
+  /* end footer  */
